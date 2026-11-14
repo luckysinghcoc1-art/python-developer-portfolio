@@ -1,2 +1,2 @@
-# college-website
-A college website built using Python Flask and SQLite
+# python-developer-portfolio
+A python developer portfolio built using Python Flask and SQLite
