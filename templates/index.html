@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +24,10 @@
     </nav>
 
     <!-- Hero Section -->
+     <a href="{{ url_for('static', filename='resume/resume.pdf') }}"
+   class="resume-btn" download>
+    Download Resume
+</a>
     <section class="hero" id="home">
 
         <p class="welcome">WELCOME TO MY PORTFOLIO</p>
@@ -186,7 +189,50 @@
 
 </div>
 
+</sectio
+<!-- Certificates Section -->
+<section id="certificates">
+    <h2>My Certificates</h2>
+
+    <div class="certificate-container">
+
+        <div class="certificate-card">
+            <h3>Python Essentials 1</h3>
+            <p>Cisco Networking Academy</p>
+            <a href="{{ url_for('static', filename='certificates/cisco-python-essentials-1.pdf') }}" target="_blank">
+                View Certificate
+            </a>
+        </div>
+
+        <div class="certificate-card">
+            <h3>Python Essentials 2</h3>
+            <p>Cisco Networking Academy</p>
+            <a href="{{ url_for('static', filename='certificates/cisco-python-essentials-2.pdf') }}" target="_blank">
+                View Certificate
+            </a>
+        </div>
+
+        <div class="certificate-card">
+            <h3>Introduction to Internet of Things</h3>
+            <p>NPTEL | Jul–Oct 2025</p>
+            <p>Score: 72/100</p>
+            <a href="{{ url_for('static', filename='certificates/nptel-iot.pdf') }}" target="_blank">
+                View Certificate
+            </a>
+        </div>
+
+        <div class="certificate-card">
+            <h3>Introduction to Industry 4.0 and Industrial Internet of Things</h3>
+            <p>NPTEL | Jan–Apr 2026</p>
+            <p>Score: 69/100</p>
+            <a href="{{ url_for('static', filename='certificates/nptel-industry-4-iot.pdf') }}" target="_blank">
+                View Certificate
+            </a>
+        </div>
+
+    </div>
 </section>
+n>
 
 <!-- Contact Section -->
 <section id="contact" class="contact-section">
